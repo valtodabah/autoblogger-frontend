@@ -1,0 +1,20 @@
+/* languageToggle.css */
+.language-toggle {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.language-toggle button {
+    background: none;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    color: #007BFF;
+}
+
+.language-toggle button.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
